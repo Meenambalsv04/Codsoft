@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 148, 177); /* Light gray background */
+}
+
+header {
+    background-color: #0e0b0c; /* Pink header background */
+    color: #d65a5a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dd8589; /* Pink CTA button */
+    color: #161212;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f7a8a8; /* White container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #fa9da5; /* Pink button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e47a68; /* Pink footer background */
+    color: #070505;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+img
+{
+    max-width: 60%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+
